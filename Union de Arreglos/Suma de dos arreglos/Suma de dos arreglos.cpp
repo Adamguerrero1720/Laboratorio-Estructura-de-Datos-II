@@ -17,6 +17,7 @@ int main()
     while (cin.fail()) {
         cin.clear();
         cin.ignore(1000, '\n');
+
         cout << "Error! Introduzca un numero entero: ";
         cin >> tamano_arreglo1;
     }
